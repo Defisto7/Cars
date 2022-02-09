@@ -394,3 +394,15 @@ margin: 0 -7px;
     margin-top: 78px;
     cursor: pointer;
 }
+
+.footer{
+    background-color: #21062A;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+}
