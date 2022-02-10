@@ -479,10 +479,17 @@ margin: 0 -7px;
     .services{
         padding-top: 150px; 
     }
+    .services__content{
+        text-align: center;
+    }
     .title{
         font-size: 28px;
         line-height: 36px;
         margin-bottom: 30px;
+        text-align: center;
+    }
+    .title::after{
+        display: none;
     }
     .services__item:hover::before{
         top: 5px;    
@@ -509,12 +516,23 @@ margin: 0 -7px;
     .services{
         padding-top: 50px; 
     }
-    .services__item:hover{
-           
+    .services__item{
+        padding-left: 60px;   
     }
     .services__item:hover::before{
         left: 11px;
-        padding-left: 60px;
+    }
+    .button--decor::before{
+        right: -50px;
+    }
+    .button--decor::after{
+        margin-left: 110px;
+    }
+}
+@media (max-width: 360px) {
+    .button--decor::before,
+    .button--decor::after{
+        display: none;
     }
 }
 @media (max-width: 340px) {
