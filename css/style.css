@@ -515,6 +515,9 @@ margin: 0 -7px;
         font-size: 28px;
         line-height: 36px;
     }
+    .carousel__item-img{
+        width: 100%;
+    }
 }
 
 @media (max-width: 520px){
@@ -553,10 +556,14 @@ margin: 0 -7px;
     .benefits{
         margin-bottom: 50px;
     }
+    .carousel .slick-dots button{
+        width: 10px;
+    }
 }
 @media (max-width: 360px) {
     .button--decor::before,
-    .button--decor::after{
+    .button--decor::after,
+    .carousel{
         display: none;
     }
 }
