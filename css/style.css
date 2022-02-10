@@ -359,7 +359,7 @@ margin: 0 -7px;
     color: #fff;
     margin-bottom: 16px;
     margin-left: 53px;
-    text-align-last: left;
+    text-align: left;
 }
 
 .contacts__title::after{
@@ -462,6 +462,23 @@ margin: 0 -7px;
     .header__social{
         padding: 30px 0 20px 53px;
     }
+    .contacts__inner{
+        display: block;
+        text-align: center;
+    }
+    .contacts__list{
+        margin-bottom: 30px;
+    }
+    .contacts__input{
+        width: 100%;
+    }
+    .contacts__btn{
+        margin-top: 20px;
+    }
+    .contacts__title{
+        text-align: center;
+        margin-left: 0;
+    }
 }
 @media (max-width: 768px){
     .benefits__inner{
@@ -559,8 +576,9 @@ margin: 0 -7px;
     .carousel .slick-dots button{
         width: 10px;
     }
-}
-@media (max-width: 360px) {
+    .contacts__form{
+        padding: 50px 10px 57px;
+    }
     .button--decor::before,
     .button--decor::after,
     .carousel{
