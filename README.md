@@ -1,4 +1,4 @@
-# АВТО ИЗ США “ПОД КЛЮЧ”
+# AUTO FROM USA “TURNKEY”
 
 
 
